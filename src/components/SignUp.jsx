@@ -1,5 +1,6 @@
 import React from 'react';
-import Google from "../../assets/Google.png";
+// import Google from '../../assets/Google.png'; // adjust path as needed
+
 
 function App() {
   return (
@@ -37,11 +38,11 @@ function App() {
         <button
           className="w-full flex items-center justify-center gap-2 bg-white border border-gray-300 rounded-md py-2 hover:bg-gray-100"
         >
-          <img
+          {/* <img
             src={Google} // Use the imported image here
             alt="Google"
             className="w-5 h-5"
-          />
+          /> */}
           <span className="text-gray-700 font-medium">Sign Up with Google</span>
         </button>
       </div>

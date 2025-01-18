@@ -4,7 +4,7 @@ import Footer from '../components/Footer.jsx';
 import Header from '../components/aboutus/Header.jsx';
 import Team from '../components/aboutus/Team.jsx';
 import OurMission from '../components/aboutus/OurMission.jsx';
-import Why from '../components/aboutus/Why.jsx';
+import Why from '../components/aAboutUs/Why.jsx';
 const Home = () => {
   return (
     <div className="font-sans">

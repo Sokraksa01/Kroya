@@ -21,14 +21,14 @@ const RecipesGrid = () => {
   ];
 
   const titles = [
-    'Nom Banjok Curry',
-    'Nom Banjok Khmer',
-    'Cha Sdeak',
-    'Chicken',
-    'Red Curry',
-    'Somlor Brher',
-    'SackArng',
-    'Koung',
+    'នំបញ្ចុកសម្លរការី',
+    'នំបញ្ចុកសម្លរខ្មែរ',
+    'ឆាគ្រឿងសណ្តែង',
+    'មាន់ដុត',
+    'តុងយុំា',
+    'សម្លរប្រហើរ',
+    'សាច់គោអាំង',
+    'គួង',
   ];
 
   return (
@@ -48,14 +48,14 @@ const RecipesGrid = () => {
                   <span>★ 4.5</span>
                 </p>
                 <h3 className="text-xl text-white font-bold mt-2">{titles[index]}</h3> {/* Dynamic title */}
-                <button className="mt-4 text-sm text-white hover:underline">View detail</button>
+                <button className="mt-4 text-sm text-white hover:underline">មើលបន្ថែមទៀត</button>
               </div>
             </div>
           ))}
         </div>
         <div className="text-center mt-8">
           <button className="px-6 py-2 bg-red-800 text-white rounded hover:bg-red-800">
-            View more
+            មើលបន្ថែមទៀត
           </button>
         </div>
       </div>

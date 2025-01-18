@@ -1,12 +1,11 @@
 import React from "react";
-import AboutUS from "./pages/AboutUS.jsx"
+import Recipes from "./pages/Recipes";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <AboutUS />
-    </div>
+   <Recipes/>
+
   );
-}
+};
 
 export default App;
